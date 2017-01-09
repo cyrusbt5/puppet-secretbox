@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'rake', '< 11.0'
 gem 'puppet-lint'
 gem 'rspec-puppet'
 gem 'rspec-system-puppet'
