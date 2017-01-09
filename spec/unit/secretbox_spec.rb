@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby -S rspec
 
 require 'spec_helper'
+require 'base64'
 
 describe 'the secretbox function' do
   let(:scope) { PuppetlabsSpec::PuppetInternals.scope }
